@@ -16,9 +16,9 @@ import { faqs } from '@/lib/content'
 import { siteConfig } from '@/lib/site-config'
 
 export const metadata: Metadata = {
-  title: `${siteConfig.name} | Home Tuition in Vanasthalipuram, Hyderabad`,
+  title: `${siteConfig.name} | Home Tuition in Renuka Colony, Hyderabad`,
   description:
-    'Ajay Home Tuitions connects Hyderabad families with focused in-home academic support for school, intermediate, and selected degree subjects.',
+    'Sridhar Home Tuitions connects Hyderabad families with focused in-home academic support for school, intermediate, and selected degree subjects.',
   alternates: { canonical: '/' },
 }
 
@@ -36,7 +36,7 @@ export default function HomePage() {
       <LocationMap
         id="home-map"
         showDetails
-        description="We are based at Flat Number 301, Sharada Nagar, Sai Nagar, Shanti Nagar, Vanasthalipuram, Hyderabad, and serve nearby localities subject to tutor availability."
+        description="Our base is Renuka Colony, Sivaji Nagar, Aliabad, Hyderabad, Telangana 500053. We arrange thoughtful home tuition for nearby families, subject to tutor availability."
       />
       <MatchingProcess />
       <ParentFeedback />

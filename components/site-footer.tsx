@@ -27,7 +27,7 @@ export function SiteFooter() {
           <div>
             <BrandLogo size={52} wordmarkClassName="text-primary" />
             <p className="mt-5 max-w-sm text-sm leading-relaxed text-muted-foreground">
-              A local tutoring service helping students build subject confidence through focused instruction, practical routines, and supportive guidance.
+              A neighborhood learning service pairing students with patient tutors for thoughtful, at-home academic practice.
             </p>
             <p className="mt-5 font-serif text-sm text-primary italic">
               {siteConfig.tagline}

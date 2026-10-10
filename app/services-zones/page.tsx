@@ -8,19 +8,19 @@ import { serviceZones, zoneDisclaimer, type ZoneCategory } from '@/lib/content'
 import { siteConfig } from '@/lib/site-config'
 
 export const metadata: Metadata = {
-  title: 'Service Zones',
+  title: 'Service Areas',
   description:
-    'Explore Ajay Home Tuitions coverage from Vanasthalipuram through nearby south Hyderabad localities, including LB Nagar, Hayathnagar and Nagole.',
+    'Check Sridhar Home Tuitions availability around Renuka Colony, Sivaji Nagar and Aliabad, with nearby Hyderabad localities grouped by practical travel distance.',
   alternates: { canonical: '/services-zones' },
 }
 
 const groupNotes: Record<ZoneCategory, string> = {
   'Closest Areas':
-    'Immediately around our Vanasthalipuram base — usually the quickest to arrange and the easiest to keep consistent.',
+    'Localities closest to Renuka Colony, Sivaji Nagar and Aliabad, where regular home visits are easiest to coordinate.',
   'Nearby Areas':
-    'A short distance out. Requirements here are taken regularly, subject to a tutor being free for your timings.',
+    'Neighboring parts of Hyderabad considered when the subject, tutor route and requested timing line up.',
   'Extended Areas':
-    'Served depending on tutor availability and the schedule requested. Worth asking before assuming either way.',
+    'Further options reviewed individually so the promised schedule remains realistic for both family and tutor.',
 }
 
 export default function ServiceZonesPage() {
@@ -33,9 +33,9 @@ export default function ServiceZonesPage() {
   return (
     <>
       <PageHero
-        breadcrumb="Service Zones"
+        breadcrumb="Service Areas"
         eyebrow="Where We Teach"
-        title="Find a Tutor Near Your Home"
+        title="Check Coverage Near Our Aliabad Base"
         description="Search for your locality, check availability, and we will confirm whether a tutor can reach you for the timings you need."
       >
         <dl className="grid gap-3 sm:grid-cols-3">
@@ -69,7 +69,7 @@ export default function ServiceZonesPage() {
             id="zone-explorer-heading"
             eyebrow="Service Zone Explorer"
             title="Find Your Locality"
-            description="Type your area name or filter by distance from our Vanasthalipuram base. Check Availability carries your locality straight into the enquiry form."
+            description="Type your locality or filter by distance from 8FQF+M8. The availability action carries your area into the enquiry form so we can check the route properly."
           />
 
           <div className="mt-12">

@@ -19,17 +19,17 @@ export function Hero() {
             <p className="inline-flex items-center gap-2 rounded-full border border-border bg-card py-1.5 pr-4 pl-1.5 text-xs font-medium text-primary shadow-sm">
               <span className="flex items-center gap-1 rounded-full bg-primary px-2.5 py-1 text-primary-foreground">
                 <MapPin className="size-3" />
-                Vanasthalipuram
+                Renuka Colony
               </span>
               One-to-one home tuition across Hyderabad
             </p>
 
             <h1 className="mt-6 font-serif text-[2.6rem] leading-[1.03] font-semibold tracking-[-0.02em] text-primary text-balance sm:text-6xl lg:text-[4.25rem]">
-              Build Better
+              A Better Way
               <br />
-              Study Habits{' '}
+              To Learn{' '}
               <span className="relative inline-block">
-                    Forward.
+                At Home.
 
                 <svg
                   aria-hidden="true"
@@ -49,7 +49,7 @@ export function Hero() {
             </h1>
 
             <p className="mt-8 max-w-xl text-base leading-relaxed text-muted-foreground sm:text-lg">
-              Personal home tutoring that turns difficult chapters into manageable steps and helps students work with greater independence.
+              Thoughtful one-to-one support for students who need clearer explanations, calmer practice, and a study routine that fits real family life.
             </p>
 
             <div className="mt-9 flex flex-col gap-3 sm:flex-row sm:flex-wrap sm:items-center">
@@ -71,7 +71,7 @@ export function Hero() {
               >
                 <a href={telHref}>
                   <Phone className="size-4" />
-                  Talk to Ajay
+                  Talk to Sridhar
                 </a>
               </Button>
               <Button
@@ -88,8 +88,7 @@ export function Hero() {
             </div>
 
             <p className="mt-8 text-sm text-muted-foreground">
-              Serving Vanasthalipuram, Kamala Nagar, Chintalakunta, Hayathnagar,
-              LB Nagar and nearby south Hyderabad localities.
+              Based near Renuka Colony, Sivaji Nagar and Aliabad, with home sessions considered across nearby Hyderabad localities.
             </p>
           </div>
 
@@ -101,7 +100,7 @@ export function Hero() {
             />
             <div className="relative overflow-hidden rounded-[1.75rem] bg-secondary shadow-2xl shadow-primary/15 sm:rounded-[2rem]">
               <Image
-                src="/images/hero-home-tuition.png"
+                src="/images/sridhar-hero-learning.png"
                 alt="A home tutor guiding a student through a mathematics notebook at a study table"
                 width={900}
                 height={1100}
@@ -118,7 +117,7 @@ export function Hero() {
             {/* Floating credential card */}
             <div className="relative mx-4 -mt-10 rounded-2xl border border-border bg-card p-5 shadow-xl shadow-primary/10 sm:mr-0 sm:-mt-14 sm:ml-auto sm:max-w-xs">
               <p className="font-serif text-lg leading-snug font-semibold text-primary">
-                Sessions at your home
+                A study space that feels familiar
               </p>
               <p className="mt-2 text-sm leading-relaxed text-muted-foreground">
                 No travel, no crowded batch — just the student, the tutor and the

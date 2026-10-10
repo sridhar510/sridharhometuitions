@@ -1,10 +1,10 @@
 export const services = [
   {
     slug: 'regular-school-support',
-    title: 'Ongoing Academic Support',
-    summary: 'Consistent weekly sessions aligned with your child\'s school curriculum and learning pace.',
+    title: 'Weekly Learning Companion',
+    summary: 'A calm weekly rhythm for keeping up with lessons, homework, and the next small academic step.',
     detail:
-      'Weekly tutoring that moves alongside your child\'s classroom learning. The tutor reviews current lessons, strengthens weak areas in each topic, and ensures deep comprehension before moving forward. Perfect for students who benefit from structured reinforcement.',
+      'A tutor follows the rhythm of school rather than creating a second syllabus. Each visit begins with the student’s current notebook or assignment, then turns confusion into a short, manageable practice plan for the week.',
     points: [
       'Curriculum-aligned weekly sessions',
       'Topics reinforced as taught in school',
@@ -13,46 +13,46 @@ export const services = [
   },
   {
     slug: 'concept-recovery',
-    title: 'Focused Concept Mastery',
-    summary: 'Dedicated sessions to rebuild understanding of specific topics that have been unclear.',
+    title: 'Untangle the Difficult Chapter',
+    summary: 'Patient, topic-by-topic coaching when a chapter feels confusing or unfinished.',
     detail:
-      'When a foundational concept has been missed or misunderstood, it creates gaps that compound. These intensive sessions rebuild that specific area with clear explanations and worked examples, then reconnect it to current classwork so the student progresses without blind spots.',
+      'This is for the chapter that keeps interrupting everything after it. We isolate the missing idea, draw it out in plain language, practise it in small steps, and then return to the school exercise that first exposed the gap.',
     points: [
       'Identify and address concept gaps',
-      'Build understanding from fundamentals',
+      'Reconnect the chapter to what the student already knows',
       'Apply concepts to current material',
     ],
   },
   {
     slug: 'examination-revision',
-    title: 'Exam Preparation & Revision',
+    title: 'Build a Better Exam Plan',
     summary: 'Targeted preparation for unit tests, board exams, and competitive entrance tests.',
     detail:
-      'Structured revision sessions that combine comprehensive topic coverage with timed practice tests. The tutor helps students understand exam patterns, practice under timed conditions, and develop effective answer-writing strategies for better performance.',
+      'Revision is planned around the actual paper, not a vague promise to “cover everything.” Sessions sort topics by confidence, mix recall with written answers, and leave time to review the mistakes that cost marks.',
     points: [
-      'Comprehensive syllabus revision',
+      'Revision mapped to the student’s actual paper pattern',
       'Timed practice and mock tests',
       'Exam strategy and answer techniques',
     ],
   },
   {
     slug: 'foundation-building',
-    title: 'Transition & Foundation Strengthening',
+    title: 'Get Ready for the Next Level',
     summary: 'Build strong fundamentals when moving to a new academic level or course stream.',
     detail:
       'Transitions to higher classes or new streams often require stronger foundational skills. These sessions consolidate essential concepts and skills that the next level assumes students already know, making the academic jump feel manageable and building confidence.',
     points: [
       'Core subject fundamentals strengthened',
-      'Essential skills for the next level',
-      'Confidence building for new challenges',
+      'Bridge work for the next class or stream',
+      'A steadier start when the syllabus changes',
     ],
   },
   {
     slug: 'homework-study-planning',
-    title: 'Study Skills & Academic Organization',
+    title: 'Make Study Time Work Better',
     summary: 'Learn effective study techniques, organization methods, and time management strategies.',
     detail:
-      'Academic success depends on both understanding content and managing learning effectively. These sessions teach note-taking techniques, study scheduling, assignment completion strategies, and independent learning skills that students can apply across all subjects.',
+      'Some students know the lesson but lose time deciding where to begin. These sessions shape a usable desk routine: choosing the next task, keeping notes that can be revisited, breaking assignments into pieces, and finishing without last-minute panic.',
     points: [
       'Effective note-taking and organization',
       'Time management and study planning',
@@ -61,7 +61,7 @@ export const services = [
   },
   {
     slug: 'senior-academic-guidance',
-    title: 'Advanced Subject Coaching',
+    title: 'Go Deeper Into Senior Subjects',
     summary:
       'In-depth instruction for senior classes, intermediate streams, and degree-level coursework.',
     detail:
@@ -76,8 +76,8 @@ export const services = [
 
 export const academicLevels = [
   {
-    title: 'Early Years',
-    note: 'Foundation skills—letter recognition, number basics, early literacy and focus development.',
+    title: 'Early Learners',
+    note: 'Playful practice for language, number sense, attention, and the confidence to try independently.',
   },
   {
     title: 'Classes 1–5',
@@ -89,7 +89,7 @@ export const academicLevels = [
   },
   {
     title: 'Classes 9–10',
-    note: 'Board exam preparation with comprehensive coverage and exam-focused practice.',
+    note: 'Clearer concepts, regular written practice, and a steady plan for school assessments and boards.',
   },
   {
     title: 'Intermediate (11–12)',
@@ -148,7 +148,7 @@ export const serviceZones: {
   name: string
   category: ZoneCategory
 }[] = [
-  { name: 'Vanasthalipuram', category: 'Closest Areas' },
+  { name: 'Renuka Colony', category: 'Closest Areas' },
   { name: 'Kamala Nagar', category: 'Closest Areas' },
   { name: 'Vaidehi Nagar', category: 'Closest Areas' },
   { name: 'Chintalakunta', category: 'Closest Areas' },
@@ -158,20 +158,16 @@ export const serviceZones: {
   { name: 'Engineers Colony', category: 'Closest Areas' },
   { name: 'Hima Sai Enclave', category: 'Closest Areas' },
   { name: 'Hastinapuram', category: 'Closest Areas' },
-  { name: 'Hayathnagar', category: 'Nearby Areas' },
-  { name: 'B.N. Reddy Nagar', category: 'Nearby Areas' },
-  { name: 'LB Nagar', category: 'Nearby Areas' },
   { name: 'Bairamalguda', category: 'Nearby Areas' },
+  { name: 'LB Nagar', category: 'Nearby Areas' },
   { name: 'Mansoorabad', category: 'Nearby Areas' },
   { name: 'Saroornagar', category: 'Nearby Areas' },
-  { name: 'Nagole', category: 'Nearby Areas' },
-  { name: 'Kuntloor', category: 'Nearby Areas' },
-  { name: 'Turkayamjal', category: 'Extended Areas' },
-  { name: 'Nadergul', category: 'Extended Areas' },
-  { name: 'Badangpet', category: 'Extended Areas' },
-  { name: 'Champapet', category: 'Extended Areas' },
-  { name: 'Kothapet', category: 'Extended Areas' },
-  { name: 'Dilsukhnagar', category: 'Extended Areas' },
+  { name: 'Kothapet', category: 'Nearby Areas' },
+  { name: 'Dilsukhnagar', category: 'Nearby Areas' },
+  { name: 'Chaitanyapuri', category: 'Extended Areas' },
+  { name: 'Karmanghat', category: 'Extended Areas' },
+  { name: 'Meerpet', category: 'Extended Areas' },
+  { name: 'Almasguda', category: 'Extended Areas' },
 ]
 
 export const zoneDisclaimer =
@@ -179,11 +175,11 @@ export const zoneDisclaimer =
 
 export const faqs = [
   {
-    q: 'What areas do you serve?',
-    a: 'We primarily serve Vanasthalipuram and surrounding neighborhoods including Kamala Nagar, Chintalakunta, Hayathnagar, LB Nagar, Nagole, and other nearby localities in south Hyderabad. If you are unsure whether your area is covered, please share your address and we will confirm availability immediately.',
+    q: 'Is my locality within your home-visit route?',
+    a: 'We primarily serve the neighborhoods nearest to our Renuka Colony base at 8FQF+M8 Hyderabad, Telangana, including Kamala Nagar, Chintalakunta, NGO Colony, Bairamalguda, LB Nagar, Mansoorabad, Saroornagar, Kothapet, Dilsukhnagar, Chaitanyapuri, Karmanghat, Meerpet, and Almasguda. If you are just outside these areas, share your address and we will confirm availability before scheduling.',
   },
   {
-    q: 'What grade levels and subjects do you support?',
+    q: 'Which students and subjects can you help with?',
     a: 'We provide tutoring from early childhood through undergraduate level, across mathematics, sciences, languages, social studies, and other subjects. The teaching approach adapts to each age: younger students develop learning habits and foundational skills, while older students focus on advanced concepts and exam success.',
   },
   {
@@ -192,7 +188,7 @@ export const faqs = [
   },
   {
     q: 'How do you match tutors to students?',
-    a: 'We begin with a detailed conversation about your child\'s grade, curriculum board, specific subjects, learning challenges, schedule preferences, and goals. This information helps us identify tutors whose expertise and teaching style align with your family\'s needs.',
+    a: 'We first listen for the details that affect a real home visit: the student’s class, board, subjects, language, locality, preferred days, and the kind of help that has or has not worked before. We then check tutor subject fit, route and availability before introducing an option.',
   },
   {
     q: 'Can I request a specific tutor profile?',
@@ -200,7 +196,7 @@ export const faqs = [
   },
   {
     q: 'How flexible are the tutoring schedules?',
-    a: 'Schedules are customized around your family\'s routine. Whether you prefer evening sessions after school, weekend sessions, morning appointments during holidays, or adjusted frequency during exam periods, we work to accommodate your needs within tutor availability.',
+    a: 'We plan around the household’s usable hours rather than offering a fixed batch slot. Evening, weekend and holiday options can be discussed, with the final schedule depending on the tutor’s route and the student’s subject requirement.',
   },
   {
     q: 'How can I check if tutors are available in my area?',
@@ -208,53 +204,53 @@ export const faqs = [
   },
   {
     q: 'How do I get started with a tuition request?',
-    a: 'Fill out the enquiry form on our Contact page, and it will generate a WhatsApp message to send us your details. You can also call us directly at 7416597027 to discuss your requirements over the phone. Either way, we respond quickly to get the process moving.',
+    a: 'Use the parent enquiry form to send the class, subjects, locality and preferred timing through WhatsApp, or call 6302267422 if you would rather explain the requirement directly. We review the details before suggesting the next step.',
   },
 ] as const
 
 export const matchingSteps = [
   {
     step: '01',
-    title: 'Tell Us Your Needs',
-    body: 'Share your child\'s grade, subjects, location, schedule, and specific learning goals.',
+    title: 'Start With the Real Situation',
+    body: 'Tell us what the student is studying now, where home sessions would happen, and which part of the week feels difficult.',
   },
   {
     step: '02',
-    title: 'We Assess the Fit',
-    body: 'Our team evaluates the request and identifies tutors with matching expertise and availability.',
+    title: 'We Check the Practical Fit',
+    body: 'We compare subject experience, teaching style, travel route and available hours before recommending anyone.',
   },
   {
     step: '03',
-    title: 'Review Tutor Options',
-    body: 'We present qualified tutor profiles and discuss which one aligns best with your requirements.',
+    title: 'Meet a Suitable Option',
+    body: 'You receive the relevant tutor details first, then decide whether an introductory conversation makes sense.',
   },
   {
     step: '04',
-    title: 'Begin Sessions',
-    body: 'Once matched and confirmed, tutoring begins at your preferred time and location.',
+    title: 'Set a Rhythm That Holds',
+    body: 'After both sides agree, sessions begin at the home address and timing confirmed together.',
   },
 ] as const
 
 export const learningModel = [
   {
-    stage: 'Assess',
-    body: 'Evaluate current understanding and identify specific knowledge gaps before instruction.',
+    stage: 'Notice',
+    body: 'Begin with the student’s notebook, questions and recent work to see where the lesson is actually sticking.',
   },
   {
-    stage: 'Teach',
-    body: 'Explain concepts clearly with relevant examples and analogies suited to the learner.',
+    stage: 'Unpack',
+    body: 'Use a simpler route into the idea, with examples that belong to the student’s subject and current chapter.',
   },
   {
-    stage: 'Apply',
-    body: 'Work through problems and exercises until skills become automatic, not accidental.',
+    stage: 'Try',
+    body: 'Move from one guided example to independent attempts while the reasoning is still fresh.',
   },
   {
-    stage: 'Correct',
-    body: 'Review errors carefully and understand why mistakes happened and how to prevent them.',
+    stage: 'Review',
+    body: 'Keep the useful mistakes visible long enough to understand the choice that caused them.',
   },
   {
-    stage: 'Progress',
-    body: 'Move forward with solid understanding, ready to tackle more advanced material.',
+    stage: 'Carry Forward',
+    body: 'End with one clear next step the student can repeat before the following session.',
   },
 ] as const
 

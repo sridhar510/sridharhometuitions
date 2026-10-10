@@ -6,18 +6,18 @@ import { whatsappHref } from '@/lib/site-config'
 const commitments = [
   {
     icon: PhoneCall,
-    title: 'We check in, you do not have to chase',
-    body: 'A coordinator follows up after the first few sessions to hear how the classes are actually going — from you and from the tutor.',
+    title: 'A simple check-in keeps things clear',
+    body: 'After the arrangement settles, we make space for an honest update from the family and tutor.',
   },
   {
     icon: ClipboardCheck,
-    title: 'Concerns are acted on, not filed away',
-    body: 'If pace, punctuality or teaching style is not working, tell us. We take it up with the tutor directly and confirm the change with you.',
+    title: 'Small concerns deserve a quick answer',
+    body: 'If the pace, timing or communication needs adjusting, we help turn that feedback into a practical next step.',
   },
   {
     icon: RefreshCw,
-    title: 'A wrong fit gets replaced',
-    body: 'Comfort between tutor and student matters more than a signed arrangement. If the match is not right, we arrange an alternative.',
+    title: 'The relationship has to feel right',
+    body: 'A tutor may be qualified and still not suit a particular learner. When that happens, we help explore a better fit.',
   },
 ]
 
@@ -28,9 +28,9 @@ export function ParentFeedback() {
         <div className="flex flex-col gap-8 sm:flex-row sm:items-end sm:justify-between">
           <SectionHeading
             id="feedback-heading"
-            eyebrow="Parent Feedback"
-            title="Built Around Ongoing Communication"
-            description="We would rather show you how feedback is handled than publish quotes you cannot verify. Reviews go up here only when a family has shared them with us and agreed to it."
+            eyebrow="The Family Experience"
+            title="Support Does Not End at the First Session"
+            description="A good arrangement should become easier to trust over time. We keep the conversation open so small concerns can be addressed before they become bigger ones."
           />
           <Button
             asChild
@@ -39,7 +39,7 @@ export function ParentFeedback() {
           >
             <a
               href={whatsappHref(
-                'Hi Ajay Home Tuitions, I would like to share feedback about the home tuition sessions.',
+                'Hi Sridhar Home Tuitions, I would like to share feedback about the home tuition sessions.',
               )}
               target="_blank"
               rel="noopener noreferrer"

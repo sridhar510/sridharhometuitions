@@ -1,32 +1,30 @@
 export const siteConfig = {
-  name: 'Ajay Home Tuitions',
-  tagline: 'Learn with clarity. Grow with confidence.',
-  url: 'https://ajayhometuitions.com',
-  phone: '7416597027',
-  whatsapp: '7416597027',
-  whatsappIntl: '917416597027',
-  email: 'ajayhometuitions30@gmail.com',
+  name: 'Sridhar Home Tuitions',
+  tagline: 'Learn. Understand. Succeed.',
+  url: 'https://sridharhometuitions.com',
+  phone: '6302267422',
+  whatsapp: '6302267422',
+  whatsappIntl: '916302267422',
+  email: 'sridharhometuitions30@gmail.com',
   address:
-    'Flat Number 301, Sharada Nagar, Sai Nagar, Shanti Nagar, Vanasthalipuram, Hyderabad, Telangana 500070',
+    'Renuka Colony, Sivaji Nagar, Aliabad, Hyderabad, Telangana 500053',
   addressLines: [
-    'Flat Number 301, Sharada Nagar,',
-    'Sai Nagar, Shanti Nagar,',
-    'Vanasthalipuram,',
-    'Hyderabad, Telangana 500070',
+    'Renuka Colony, Sivaji Nagar,',
+    'Aliabad, Hyderabad, Telangana 500053',
   ],
-  shortLocation: 'Vanasthalipuram, Hyderabad',
-  mapLocation: '8HFQ+W4 Hyderabad, Telangana',
+  shortLocation: 'Renuka Colony, Sivaji Nagar, Aliabad',
+  mapLocation: '8FQF+M8 Hyderabad, Telangana',
   mapUrl:
-    'https://www.google.com/maps/search/?api=1&query=8HFQ%2BW4%20Hyderabad%2C%20Telangana',
+    'https://www.google.com/maps/search/?api=1&query=8FQF%2BM8%20Hyderabad%2C%20Telangana',
   mapEmbedUrl:
-    'https://www.google.com/maps?q=8HFQ%2BW4%20Hyderabad%2C%20Telangana&output=embed',
-  logo: 'https://hebbkx1anhila5yf.public.blob.vercel-storage.com/Ajjay%20Home%20Tuitions-1%20-LpPfaIvooaBOZNUCiqijsKAPfVPoS4.png',
+    'https://www.google.com/maps?q=8FQF%2BM8%20Hyderabad%2C%20Telangana&output=embed',
+  logo: '/sridhar-home-tuitions.png',
 } as const
 
 export const telHref = `tel:${siteConfig.phone}`
 
 export function whatsappHref(
-  message = 'Hello Ajay Home Tuitions, I would like to explore suitable academic support for my child.',
+  message = 'Hello Sridhar Home Tuitions, I would like to discuss a focused learning plan for my child.',
 ) {
   return `https://wa.me/${siteConfig.whatsappIntl}?text=${encodeURIComponent(message)}`
 }
@@ -36,7 +34,7 @@ export const navLinks = [
   { label: 'About', href: '/about' },
   { label: 'Why Choose Us', href: '/why-choose-us' },
   { label: 'Services', href: '/services' },
-  { label: 'Service Zones', href: '/services-zones' },
   { label: 'FAQ', href: '/faq' },
-  { label: 'Contact', href: '/contact' },
+  { label: 'Service Areas', href: '/services-zones' },
+  { label: 'Locations', href: '/contact' },
 ] as const

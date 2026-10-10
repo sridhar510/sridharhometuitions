@@ -3,19 +3,19 @@ import { SectionHeading } from '@/components/section-heading'
 
 const points = [
   {
-    title: 'Understand the Starting Point',
+    title: 'Find the Friction Point',
     body: 'Before any teaching begins, the tutor finds out what the student can already do unaided. That single conversation usually reveals whether the difficulty is the current chapter or something left behind two classes ago.',
   },
   {
-    title: 'Set Practical Learning Goals',
+    title: 'Turn Goals Into Routines',
     body: 'Goals are written in terms a student can act on this week — finish the chapter sums without help, write a full answer within the time limit, stop losing marks on units. Vague ambitions get replaced with specific targets.',
   },
   {
-    title: 'Teach With Context',
+    title: 'Make The Chapter Click',
     body: 'A formula explained on its own is forgotten by the weekend. The tutor connects it to where it came from and where it will be used again, so the student has a reason to remember it.',
   },
   {
-    title: 'Review and Refine',
+    title: 'Notice Progress Early',
     body: 'Mistakes are treated as information. Each session revisits the previous errors, names the reason behind them, and adjusts the plan for the coming weeks instead of repeating the same routine.',
   },
 ]
@@ -31,13 +31,13 @@ export function Differentiators() {
           <div className="lg:sticky lg:top-32 lg:self-start">
             <SectionHeading
               id="differentiators-heading"
-              eyebrow="What Makes Ajay Different"
-              title="A More Personal Way to Learn"
-              description="Home tuition is only worth it when the teaching adapts to the learner. This is the working method behind every arrangement we set up."
+              eyebrow="The Sridhar Learning Method"
+              title="Small Wins, Built Into Every Session"
+              description="We make progress visible: one clearer explanation, one solved problem, one confident question at a time."
             />
             <div className="relative mt-10 hidden overflow-hidden rounded-[1.5rem] lg:block">
               <Image
-                src="/images/study-desk.png"
+                src="/images/sridhar-study-method.png"
                 alt="A study desk with an open notebook, textbooks and stationery ready for a tuition session"
                 width={760}
                 height={560}

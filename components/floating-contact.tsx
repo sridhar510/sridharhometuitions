@@ -16,7 +16,7 @@ export function FloatingContact() {
         href={whatsappHref()}
         target="_blank"
         rel="noopener noreferrer"
-        aria-label="Chat with Ajay Home Tuitions on WhatsApp"
+        aria-label="Chat with Sridhar Home Tuitions on WhatsApp"
         className="group relative flex size-13 items-center justify-center rounded-full bg-[#25D366] text-white shadow-lg shadow-primary/25 transition-transform duration-200 hover:scale-105 focus-visible:ring-2 focus-visible:ring-primary focus-visible:ring-offset-2 focus-visible:outline-none active:scale-95"
       >
         <span className="absolute inset-0 animate-ping rounded-full bg-[#25D366]/40 [animation-duration:2.6s]" />
@@ -24,7 +24,7 @@ export function FloatingContact() {
       </a>
       <a
         href={telHref}
-        aria-label="Call Ajay Home Tuitions"
+        aria-label="Call Sridhar Home Tuitions"
         className="flex size-13 items-center justify-center rounded-full bg-primary text-primary-foreground shadow-lg shadow-primary/25 transition-transform duration-200 hover:scale-105 focus-visible:ring-2 focus-visible:ring-accent focus-visible:ring-offset-2 focus-visible:outline-none active:scale-95"
       >
         <Phone className="size-5" />

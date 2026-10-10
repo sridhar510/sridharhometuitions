@@ -32,7 +32,7 @@ function MapFrame() {
 export function LocationMap({
   id,
   eyebrow = 'Find Us',
-  title = 'Our Location in Vanasthalipuram',
+  title = 'Our Location in Renuka Colony, Aliabad',
   description = siteConfig.address,
   showDetails = false,
   className,
@@ -71,8 +71,7 @@ export function LocationMap({
               </address>
 
               <p className="mt-5 text-sm leading-relaxed text-muted-foreground">
-                Tutors travel to homes across Vanasthalipuram and nearby south Hyderabad
-                localities. Call to discuss your requirement and check availability.
+                Our home tuition network is centered on Renuka Colony, Sivaji Nagar and Aliabad, Hyderabad 500053. Nearby assignments are considered according to subject, tutor route and schedule.
               </p>
 
               <div className="mt-7 flex flex-col gap-3 sm:flex-row lg:flex-col xl:flex-row">

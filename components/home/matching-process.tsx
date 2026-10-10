@@ -55,7 +55,7 @@ export function MatchingProcess() {
           <div className="flex flex-col gap-5">
             <div className="overflow-hidden rounded-[1.5rem] border border-border">
               <Image
-                src="/images/tutor-session.png"
+                src="/images/sridhar-tutor-session.png"
                 alt="A home tutor explaining a concept to a student during a one-to-one session"
                 width={760}
                 height={620}

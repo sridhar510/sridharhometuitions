@@ -11,18 +11,18 @@ import { siteConfig, telHref } from "@/lib/site-config"
 export const metadata: Metadata = {
   title: "Apply as a Home Tutor",
   description:
-    "Apply to teach with Ajay Home Tuitions. Share your qualifications, subjects, boards and preferred localities to receive tuition assignments near you.",
+    "Apply to teach with Sridhar Home Tuitions. Share your qualifications, subjects, boards and preferred localities to receive tuition assignments near you.",
   alternates: { canonical: "/join-tutor" },
 }
 
 const steps = [
   {
-    title: "Submit your profile",
-    body: "Qualifications, teaching experience, subjects and the areas you can travel to.",
+    title: "Show us your teaching range",
+    body: "Share your qualifications, strongest subjects, boards, experience and realistic travel radius.",
   },
   {
-    title: "Verification call",
-    body: "We confirm your credentials, subject depth and comfort with the boards you list.",
+    title: "Have a short introduction",
+    body: "We learn how you explain, which learners you teach best and what kind of schedule suits you.",
   },
   {
     title: "Assignment sharing",
@@ -47,15 +47,15 @@ export default function JoinTutorPage() {
       <PageHero
         eyebrow="For Tutors"
         breadcrumb="Apply as a Tutor"
-        title="Teach with Ajay Home Tuitions"
-        description="If you teach with patience and know your subject well, we would like to work with you. Share your profile and we will reach out with assignments near you."
+        title="Bring your teaching to the right homes"
+        description="Sridhar Home Tuitions connects thoughtful tutors with families who value patient, dependable academic guidance near their own locality."
       />
 
       <section className="border-b border-border bg-background py-16 sm:py-20">
         <div className="mx-auto max-w-6xl px-4 sm:px-6">
           <SectionHeading
             eyebrow="Why tutors work with us"
-            title="Assignments that respect your time and expertise"
+            title="A better match for your teaching style"
           />
           <div className="mt-12 grid gap-6 sm:grid-cols-2 lg:grid-cols-4">
             {benefits.map(({ icon: Icon, title, body }) => (

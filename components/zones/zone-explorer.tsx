@@ -32,6 +32,16 @@ export function ZoneExplorer() {
   return (
     <div>
       <div className="flex flex-col gap-5 rounded-[1.5rem] border border-border bg-card p-5 sm:p-6">
+        <div className="flex items-start gap-3 rounded-xl bg-secondary/60 p-4">
+          <MapPin aria-hidden="true" className="mt-0.5 size-5 shrink-0 text-accent" />
+          <div>
+            <p className="text-sm font-semibold text-primary">Serving near 8FQF+M8 Hyderabad, Telangana</p>
+            <p className="mt-1 text-xs leading-relaxed text-muted-foreground">
+              These are the neighborhoods closest to our Renuka Colony location. Search your locality below to check coverage.
+            </p>
+          </div>
+        </div>
+
         <div className="flex flex-col gap-2">
           <Label
             htmlFor="zone-search"
@@ -49,7 +59,7 @@ export function ZoneExplorer() {
               type="search"
               value={query}
               onChange={(event) => setQuery(event.target.value)}
-              placeholder="Try Vanasthalipuram, LB Nagar, Hayathnagar…"
+              placeholder="Try Renuka Colony, Chintalakunta, LB Nagar…"
               autoComplete="off"
               className="h-12 w-full rounded-xl border-border bg-background pr-11 pl-11 text-base shadow-none focus-visible:border-accent focus-visible:ring-3 focus-visible:ring-accent/25 md:text-sm"
             />
@@ -71,7 +81,7 @@ export function ZoneExplorer() {
             id="zone-filter-label"
             className="text-xs font-semibold tracking-[0.16em] text-muted-foreground uppercase"
           >
-            Filter by distance
+            Distance from 8FQF+M8
           </p>
           <div
             role="group"

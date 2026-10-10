@@ -24,7 +24,7 @@ export function BrandLogo({
       aria-label={`${siteConfig.name} — home`}
     >
       <Image
-        src={siteConfig.logo || '/placeholder.svg'}
+        src={siteConfig.logo}
         alt={`${siteConfig.name} logo`}
         width={size}
         height={size}
@@ -35,7 +35,7 @@ export function BrandLogo({
       {showWordmark && (
         <span className={cn('flex flex-col leading-none', wordmarkClassName)}>
           <span className="font-serif text-[15px] font-semibold tracking-tight sm:text-base">
-            Ajay <span className="text-accent">Home Tuitions</span>
+            Sridhar <span className="text-accent">Home Tuitions</span>
           </span>
           <span className="mt-1 text-[10px] font-medium tracking-[0.16em] uppercase opacity-60">
             {siteConfig.shortLocation}

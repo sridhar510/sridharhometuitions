@@ -5,7 +5,7 @@ import { siteConfig } from '@/lib/site-config'
 export const metadata: Metadata = {
   title: 'Privacy Policy',
   description:
-    'Learn how information submitted through the Ajay Home Tuitions website is handled, used for enquiries, and protected.',
+    'Learn how information submitted through the Sridhar Home Tuitions website is handled, used for enquiries, and protected.',
   alternates: { canonical: '/privacy-policy' },
 }
 

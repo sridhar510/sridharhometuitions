@@ -5,7 +5,7 @@ import { siteConfig } from '@/lib/site-config'
 export const metadata: Metadata = {
   title: 'Terms & Conditions',
   description:
-    'Review the conditions that guide tuition enquiries, tutor introductions, session arrangements, and communication with Ajay Home Tuitions.',
+    'Review the conditions that guide tuition enquiries, tutor introductions, session arrangements, and communication with Sridhar Home Tuitions.',
   alternates: { canonical: '/terms-and-conditions' },
 }
 
