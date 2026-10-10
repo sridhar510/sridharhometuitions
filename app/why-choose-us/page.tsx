@@ -19,7 +19,7 @@ import { telHref } from '@/lib/site-config'
 export const metadata: Metadata = {
   title: 'Why Choose Us',
   description:
-    'Focused learning, flexible planning and careful tutor matching for families near Renuka Colony, Sivaji Nagar, Aliabad and surrounding Hyderabad localities.',
+    'Focused learning, flexible session planning, requirement-based tutor matching and ongoing parent visibility — the reasons families across Vanasthalipuram and Secunderabad choose Ajay Home Tuitions.',
   alternates: { canonical: '/why-choose-us' },
 }
 
@@ -89,9 +89,9 @@ export default function WhyChooseUsPage() {
     <>
       <PageHero
         breadcrumb="Why Choose Us"
-        eyebrow="Why Families Choose Sridhar"
+        eyebrow="Why Families Choose Ajay"
         title="A More Considered Way to Get Extra Help"
-        description="Six practical reasons families near Renuka Colony, Sivaji Nagar and Aliabad choose a home-based learning arrangement."
+        description="Six practical reasons parents in Vanasthalipuram, ECIL, Kapra and the nearby localities keep home tuition running with us."
       />
 
       <section aria-labelledby="reasons-heading" className="bg-background">
@@ -223,7 +223,7 @@ export default function WhyChooseUsPage() {
               >
                 <a href={telHref}>
                   <Phone className="size-4" />
-                  Talk to Sridhar
+                  Talk to Ajay
                 </a>
               </Button>
             </div>

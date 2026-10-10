@@ -16,7 +16,7 @@ import { siteConfig } from '@/lib/site-config'
 export const metadata: Metadata = {
   title: 'About Us',
   description:
-    'Learn how Sridhar Home Tuitions supports students in Renuka Colony and nearby Hyderabad homes through focused, one-to-one academic guidance.',
+    'Learn how Ajay Home Tuitions supports students in Vanasthalipuram and nearby Hyderabad homes through focused, one-to-one academic guidance.',
   alternates: { canonical: '/about' },
 }
 
@@ -58,9 +58,9 @@ export default function AboutPage() {
     <>
       <PageHero
         breadcrumb="About"
-        eyebrow="About Sridhar Home Tuitions"
-        title="A Quieter, More Considered Way to Study"
-        description="Sridhar Home Tuitions brings patient, one-to-one academic guidance into the student’s own space around Renuka Colony, Sivaji Nagar and Aliabad."
+        eyebrow="About Ajay Home Tuitions"
+        title="Tutoring That Pays Attention to the Details"
+        description="We are a home tuition service based in Vanasthalipuram, Secunderabad, working with school, intermediate and degree students across the surrounding localities."
       />
 
       <section aria-labelledby="about-story-heading" className="bg-background">
@@ -70,11 +70,11 @@ export default function AboutPage() {
               <SectionHeading
                 id="about-story-heading"
                 eyebrow="Who We Are"
-                title="The Work Starts With Listening"
+                title="Every Student Brings a Different Starting Point"
               />
               <div className="mt-8 flex flex-col gap-5 text-base leading-relaxed text-muted-foreground">
                 <p>
-                  Sridhar Home Tuitions began with a simple observation: two
+                  Ajay Home Tuitions began with a simple observation: two
                   students in the same class, with the same textbook and the same
                   teacher, can struggle for entirely different reasons. One has
                   missed a foundation topic. Another understands the concept but
@@ -89,7 +89,7 @@ export default function AboutPage() {
                   often the tutor comes, and what gets practised each week.
                 </p>
                 <p>
-                  Our work stays deliberately local. Being centred on Renuka Colony
+                  Our work stays deliberately local. Being centred on Vanasthalipuram
                   and the neighbouring areas means tutors reach homes without long
                   travel, schedules hold week after week, and we know the schools
                   and boards our students are dealing with. Reliability matters
@@ -120,8 +120,8 @@ export default function AboutPage() {
             <div className="flex flex-col gap-5">
               <div className="overflow-hidden rounded-[1.5rem] border border-border">
                 <Image
-                  src="/images/sridhar-about-learning.png"
-                  alt="A parent and student reviewing a weekly learning plan at home"
+                  src="/images/tutor-session.png"
+                  alt="A home tutor working through a problem with a student at a study table"
                   width={800}
                   height={900}
                   sizes="(max-width: 1024px) 100vw, 40vw"
@@ -150,8 +150,8 @@ export default function AboutPage() {
           <SectionHeading
             id="about-pillars-heading"
             eyebrow="What We Stand For"
-            title="What Good Home Tuition Should Feel Like"
-            description="Our approach is simple to describe: notice carefully, explain clearly, practise patiently, and keep the family informed."
+            title="Six Commitments Behind Every Arrangement"
+            description="These are not slogans — they are the things we check ourselves against when a family asks whether the tuition is working."
           />
 
           <ul className="mt-12 grid gap-4 sm:grid-cols-2 lg:grid-cols-3">
@@ -184,7 +184,7 @@ export default function AboutPage() {
                 id="about-approach-heading"
                 className="mt-5 font-serif text-3xl leading-[1.12] font-semibold tracking-tight text-primary text-balance sm:text-4xl"
               >
-                Useful, Realistic, and Built to Continue
+                Honest About What We Can Do
               </h2>
             </div>
             <div className="flex flex-col gap-5 text-base leading-relaxed text-muted-foreground">

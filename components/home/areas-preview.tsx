@@ -14,8 +14,8 @@ export function AreasPreview() {
           <SectionHeading
             id="areas-heading"
             eyebrow="Service Areas"
-            title="Home Tuition Around Renuka Colony"
-            description="Our tutors work across Renuka Colony and surrounding Hyderabad localities. Find your area and check availability."
+            title="Home Tuition Around Vanasthalipuram"
+            description="Our tutors work across Vanasthalipuram and surrounding Hyderabad localities. Find your area and check availability."
           />
           <Button
             asChild

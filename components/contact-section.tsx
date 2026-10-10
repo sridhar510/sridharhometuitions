@@ -31,7 +31,7 @@ export function ContactSection() {
               Let&apos;s Find the Right Next Step
             </h2>
             <p className="mt-5 max-w-lg text-base leading-relaxed text-primary-foreground/70">
-              Share the student’s class, the subjects that need attention, and your preferred routine. We will reply with a practical local option rather than a generic package.
+              Tell us where your child is studying, what feels difficult, and when support would fit your week. We will help you understand the available options.
             </p>
 
             <div className="mt-9 flex flex-wrap gap-3">
@@ -42,7 +42,7 @@ export function ContactSection() {
               >
                 <a href={telHref}>
                   <Phone className="size-4" />
-                  Call Sridhar
+                  Call Ajay
                 </a>
               </Button>
               <Button
@@ -57,7 +57,7 @@ export function ContactSection() {
                   rel="noopener noreferrer"
                 >
                   <MessageCircle className="size-4" />
-                  WhatsApp Sridhar
+                  WhatsApp Ajay
                 </a>
               </Button>
               <Button

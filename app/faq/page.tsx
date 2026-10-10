@@ -11,7 +11,7 @@ import { siteConfig, telHref, whatsappHref } from '@/lib/site-config'
 export const metadata: Metadata = {
   title: 'Frequently Asked Questions',
   description:
-    'Practical answers about classes, subjects, tutor selection, schedules, locations and enquiries for Sridhar Home Tuitions in Hyderabad.',
+    'Practical answers about classes, subjects, tutor selection, schedules, locations and enquiries for Ajay Home Tuitions in Hyderabad.',
   alternates: { canonical: '/faq' },
 }
 
@@ -23,8 +23,8 @@ export default function FaqPage() {
       <PageHero
         breadcrumb="FAQ"
         eyebrow="Frequently Asked Questions"
-        title="Before You Arrange a Home Tutor"
-        description="A clear look at subjects, schedules, tutor matching, coverage and the first step for families considering Sridhar Home Tuitions."
+        title="Useful Details for Making a Decision"
+        description="Areas covered, classes and subjects, tutor matching, schedules and how to send an enquiry — answered plainly."
       />
 
       <section aria-labelledby="faq-list-heading" className="bg-background">
@@ -34,8 +34,8 @@ export default function FaqPage() {
               <SectionHeading
                 id="faq-list-heading"
                 eyebrow="Questions & Answers"
-                title="Questions Are Part of the Process"
-                description="If your situation does not fit a simple answer, call or message us. We would rather understand it properly than make assumptions."
+                title="Still Not Sure? Just Ask."
+                description="If your question is not covered here, call or message us — a two-minute conversation is usually faster than reading."
               />
 
               <div className="mt-8 flex flex-col gap-3">
@@ -57,7 +57,7 @@ export default function FaqPage() {
                 >
                   <a
                     href={whatsappHref(
-                      'Hi Sridhar Home Tuitions, I have a question about home tuition.',
+                      'Hi Ajay Home Tuitions, I have a question about home tuition.',
                     )}
                     target="_blank"
                     rel="noopener noreferrer"

@@ -12,7 +12,7 @@ import { siteConfig, telHref } from '@/lib/site-config'
 export const metadata: Metadata = {
   title: 'Contact Us',
   description:
-    'Contact Sridhar Home Tuitions in Renuka Colony, Hyderabad — call 6302267422, send a WhatsApp enquiry, or use the tuition enquiry form to share your requirement.',
+    'Contact Ajay Home Tuitions in Vanasthalipuram, Hyderabad — call 7416597027, send a WhatsApp enquiry, or use the tuition enquiry form to share your requirement.',
   alternates: { canonical: '/contact' },
 }
 
@@ -56,8 +56,8 @@ export default function ContactPage() {
       <PageHero
         breadcrumb="Contact"
         eyebrow="Get in Touch"
-        title="Let’s Start With Your Situation"
-        description="Send us the student’s class, subjects, locality and preferred hours. We will look at the practical details before suggesting a home-tuition route."
+        title="Let Us Understand What Would Help"
+        description="Share the class, subjects and your locality. We will tell you what kind of home tuition arrangement will actually work — and whether a tutor is available for your timings."
       />
 
       <section aria-labelledby="contact-form-heading" className="bg-background">
@@ -67,8 +67,8 @@ export default function ContactPage() {
               <SectionHeading
                 id="contact-form-heading"
                 eyebrow="Contact Details"
-                title="Choose the easiest way to begin"
-                description="Call when you want to talk it through, or use the form when you already know the important details."
+                title="Reach Ajay Directly"
+                description="A phone call is usually the quickest way to sort out a requirement. The form works just as well if you would rather write it out."
               />
 
               <dl className="mt-10 flex flex-col gap-px overflow-hidden rounded-2xl border border-border bg-border">

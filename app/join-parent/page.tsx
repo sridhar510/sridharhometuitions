@@ -18,16 +18,16 @@ export const metadata: Metadata = {
 
 const steps = [
   {
-    title: "Give us the study picture",
-    body: "Tell us the learner’s class, current subjects, locality, language preference and workable hours.",
+    title: "Share the requirement",
+    body: "Class, board, subjects, area and the timings that actually work for your family.",
   },
   {
-    title: "We compare the right details",
-    body: "Subject knowledge, student fit, route and timing all matter before we suggest a tutor.",
+    title: "We shortlist tutors",
+    body: "We match on subject depth, board familiarity, travel distance and availability.",
   },
   {
-    title: "See how the connection feels",
-    body: "An initial conversation or session helps your family understand the tutor’s pace and manner.",
+    title: "Meet before committing",
+    body: "An introductory session lets you judge teaching style and comfort with your child.",
   },
   {
     title: "Begin regular classes",
@@ -47,8 +47,8 @@ export default function JoinParentPage() {
       <PageHero
         eyebrow="For Parents"
         breadcrumb="Request a Tutor"
-        title="Find the right learning support at home"
-        description="Start with the student, not a package. Tell us what is happening with schoolwork and we will help shape a sensible home-tuition option."
+        title="Request a home tutor for your child"
+        description="Share a few details about your child's learning needs. We will get back with tutor options that fit the class, board, subjects and schedule you describe."
       />
 
       <section className="border-b border-border bg-background py-16 sm:py-20">

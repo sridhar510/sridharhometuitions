@@ -47,8 +47,8 @@
   --muted: oklch(0.963 0.008 255);
   --muted-foreground: oklch(0.505 0.03 255);
 
-  /* Brand colors sampled from the Sridhar Home Tuitions logo */
-  --primary: oklch(0.27 0.09 255);
+  /* Brand colors sampled from the Ajay Home Tuitions logo */
+  --primary: oklch(0.29 0.19 305);
   --primary-foreground: oklch(0.99 0.005 85);
   --secondary: oklch(0.96 0.035 305);
   --secondary-foreground: oklch(0.29 0.19 305);
@@ -106,7 +106,7 @@
   background-size: 18px 18px;
 }
 
-@keyframes sridhar-rise {
+@keyframes pavan-rise {
   from {
     opacity: 0;
     transform: translateY(18px);
@@ -118,7 +118,7 @@
 }
 
 @utility animate-rise {
-  animation: sridhar-rise 0.7s cubic-bezier(0.22, 1, 0.36, 1) both;
+  animation: pavan-rise 0.7s cubic-bezier(0.22, 1, 0.36, 1) both;
 }
 
 @media (prefers-reduced-motion: reduce) {

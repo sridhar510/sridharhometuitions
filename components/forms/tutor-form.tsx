@@ -199,7 +199,7 @@ export function TutorForm() {
           label="Preferred Service Areas"
           className="sm:col-span-2"
           rows={3}
-          placeholder="Which localities can you travel to? e.g. Sivaji Nagar, Aliabad, Chintalakunta, LB Nagar"
+          placeholder="Which localities can you travel to? e.g. Vanasthalipuram, Hayathnagar, LB Nagar, Nagole"
           value={values.areas}
           onChange={update('areas')}
         />

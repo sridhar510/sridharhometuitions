@@ -12,7 +12,7 @@ import { whatsappHref } from '@/lib/site-config'
 export const metadata: Metadata = {
   title: 'Home Tuition Services',
   description:
-    'Explore practical home tuition options from Sridhar Home Tuitions for school support, concept clarity, revision, study habits and senior academics.',
+    'Explore practical home tuition options from Ajay Home Tuitions for school support, concept clarity, revision, study habits and senior academics.',
   alternates: { canonical: '/services' },
 }
 
@@ -22,8 +22,8 @@ export default function ServicesPage() {
       <PageHero
         breadcrumb="Services"
         eyebrow="Tuition Solutions"
-        title="Support That Fits the Student in Front of Us"
-        description="From one difficult subject to a full weekly routine, each tuition arrangement is shaped around what the student needs next—not a standard package."
+        title="Home Tuition Built Around the Next Right Step"
+        description="Six arrangements that cover most of what families ask us for — from steady weekly school support to focused revision before a board examination."
       >
         <ul className="flex flex-wrap gap-2">
           {services.map((service) => (
@@ -44,8 +44,8 @@ export default function ServicesPage() {
           <SectionHeading
             id="services-list-heading"
             eyebrow="What We Offer"
-            title="Choose the Kind of Help That Makes Sense"
-            description="Explore the options below, then tell us what is happening in your child’s studies. We can shape the arrangement from there."
+            title="Every Requirement Needs a Different Shape"
+            description="Read through and pick the one closest to your situation — or simply describe the problem and we will work out which fits."
           />
 
           <div className="mt-12 flex flex-col gap-4">
@@ -99,7 +99,7 @@ export default function ServicesPage() {
                     >
                       <a
                         href={whatsappHref(
-                          `Hi Sridhar Home Tuitions, I would like to know more about ${service.title}.`,
+                          `Hi Ajay Home Tuitions, I would like to know more about ${service.title}.`,
                         )}
                         target="_blank"
                         rel="noopener noreferrer"
@@ -124,8 +124,8 @@ export default function ServicesPage() {
           <SectionHeading
             id="services-coverage-heading"
             eyebrow="Coverage"
-            title="A Wide Academic Range, A Personal Start"
-            description="We work from early learning through school, Intermediate and selected degree subjects, with the first conversation focused on the student’s actual level."
+            title="Classes, Subjects and Boards"
+            description="Support is available from early school readiness through Class 10, Intermediate streams and selected degree-level subjects."
           />
 
           <ul className="mt-12 grid gap-4 sm:grid-cols-2 lg:grid-cols-3">
