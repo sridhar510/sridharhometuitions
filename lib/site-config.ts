@@ -2,9 +2,9 @@ export const siteConfig = {
   name: 'Sridhar Home Tuitions',
   tagline: 'Learn. Understand. Succeed.',
   url: 'https://sridharhometuitions.com',
-  phone: '6302267422',
-  whatsapp: '6302267422',
-  whatsappIntl: '916302267422',
+  phone: '7416597027',
+  whatsapp: '7416597027',
+  whatsappIntl: '917416597027',
   email: 'sridharhometuitions30@gmail.com',
   address:
     'Renuka Colony, Sivaji Nagar, Aliabad, Hyderabad, Telangana 500053',
@@ -21,7 +21,7 @@ export const siteConfig = {
   logo: '/sridhar-home-tuitions.png',
 } as const
 
-export const telHref = `tel:${siteConfig.phone}`
+export const telHref = `tel:+91${siteConfig.phone}`
 
 export function whatsappHref(
   message = 'Hello Sridhar Home Tuitions, I would like to discuss a focused learning plan for my child.',

@@ -12,7 +12,7 @@ import { siteConfig, telHref } from '@/lib/site-config'
 export const metadata: Metadata = {
   title: 'Contact Us',
   description:
-    'Contact Sridhar Home Tuitions in Renuka Colony, Hyderabad — call 6302267422, send a WhatsApp enquiry, or use the tuition enquiry form to share your requirement.',
+    'Contact Sridhar Home Tuitions in Renuka Colony, Hyderabad — call 7416597027, send a WhatsApp enquiry, or use the tuition enquiry form to share your requirement.',
   alternates: { canonical: '/contact' },
 }
 

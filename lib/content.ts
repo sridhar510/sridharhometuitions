@@ -204,7 +204,7 @@ export const faqs = [
   },
   {
     q: 'How do I get started with a tuition request?',
-    a: 'Use the parent enquiry form to send the class, subjects, locality and preferred timing through WhatsApp, or call 6302267422 if you would rather explain the requirement directly. We review the details before suggesting the next step.',
+    a: 'Use the parent enquiry form to send the class, subjects, locality and preferred timing through WhatsApp, or call 7416597027 if you would rather explain the requirement directly. We review the details before suggesting the next step.',
   },
 ] as const
 
